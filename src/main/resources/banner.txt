@@ -1,0 +1,15 @@
+${AnsiColor.MAGENTA}
+
+${AnsiColor.MAGENTA}  .oooooo.             o8o              o8o             .${AnsiColor.CYAN} ooo        ooooo                        .
+${AnsiColor.MAGENTA} d8P'  `Y8b            `"'              `"'             .${AnsiColor.CYAN} `88.       .888'                      .o8
+${AnsiColor.MAGENTA}888      888 oooo d8b oooo   .oooooooo oooo  ooo. .oo.  .${AnsiColor.CYAN}  888b     d'888   .oooo.    .oooo.o .o888oo  .ooooo.  oooo d8b
+${AnsiColor.MAGENTA}888      888 `888""8P `888  888' `88b  `888  `888P"Y88b .${AnsiColor.CYAN}  8 Y88. .P  888  `P  )88b  d88(  "8   888   d88' `88b `888""8P
+${AnsiColor.MAGENTA}888      888  888      888  888   888   888   888   888 .${AnsiColor.CYAN}  8  `888'   888   .oP"888  `"Y88b.    888   888ooo888  888
+${AnsiColor.MAGENTA}`88b    d88'  888      888  `88bod8P'   888   888   888 .${AnsiColor.CYAN}  8    Y     888  d8(  888  o.  )88b   888 . 888    .o  888
+${AnsiColor.MAGENTA} `Y8bood8P'  d888b    o888o `8oooooo.  o888o o888o o888o.${AnsiColor.CYAN} o8o        o888o `Y888""8o 8""888P'   "888" `Y8bod8P' d888b
+${AnsiColor.MAGENTA}                            d"     YD
+${AnsiColor.MAGENTA}                            "Y88888P'
+${AnsiStyle.NORMAL}
+${application.title} ${application.version}
+Powered by Spring Boot ${spring-boot.version}
+

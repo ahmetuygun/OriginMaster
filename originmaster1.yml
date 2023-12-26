@@ -1,0 +1,209 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/ahmetuygun/Desktop/projects/OriginMaster
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 307
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 19
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 324
+    content: "\r\nThe default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\n\e[?1034hAhmets-MacBook-Pro:OriginMaster ahmetuygun$ "
+  - delay: 1714
+    content: .
+  - delay: 125
+    content: /
+  - delay: 755
+    content: m
+  - delay: 173
+    content: v
+  - delay: 191
+    content: 'n'
+  - delay: 385
+    content: w
+  - delay: 265
+    content: ' '
+  - delay: 239
+    content: s
+  - delay: 148
+    content: p
+  - delay: 220
+    content: r
+  - delay: 164
+    content: i
+  - delay: 198
+    content: 'n'
+  - delay: 217
+    content: g
+  - delay: 309
+    content: '-'
+  - delay: 398
+    content: b
+  - delay: 138
+    content: o
+  - delay: 138
+    content: o
+  - delay: 529
+    content: t
+  - delay: 475
+    content: ':'
+  - delay: 432
+    content: r
+  - delay: 278
+    content: u
+  - delay: 223
+    content: 'n'
+  - delay: 142
+    content: "\r\n"
+  - delay: 1946
+    content: "[\e[1;34mINFO\e[m] Scanning for projects...\r\n"
+  - delay: 585
+    content: "[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m----------------------< \e[0;36mcom.company:OriginMaster\e[0;1m >----------------------\e[m\r\n[\e[1;34mINFO\e[m] \e[1mBuilding OriginMaster 0.0.1-SNAPSHOT\e[m\r\n[\e[1;34mINFO\e[m]   from pom.xml\r\n[\e[1;34mINFO\e[m] \e[1m--------------------------------[ jar ]---------------------------------\e[m\r\n"
+  - delay: 52
+    content: "[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m>>> \e[0;32mspring-boot:3.2.1:run\e[m \e[1m(default-cli)\e[0;1m > \e[0;1mtest-compile\e[m @ \e[36mOriginMaster\e[0;1m >>>\e[m\r\n"
+  - delay: 530
+    content: "[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m--- \e[0;32mresources:3.3.1:resources\e[m \e[1m(default-resources)\e[m @ \e[36mOriginMaster\e[0;1m ---\e[m\r\n"
+  - delay: 301
+    content: "[\e[1;34mINFO\e[m] Copying 1 resource from src/main/resources to target/classes\r\n"
+  - delay: 18
+    content: "[\e[1;34mINFO\e[m] Copying 1 resource from src/main/resources to target/classes\r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m--- \e[0;32mcompiler:3.11.0:compile\e[m \e[1m(default-compile)\e[m @ \e[36mOriginMaster\e[0;1m ---\e[m\r\n"
+  - delay: 212
+    content: "[\e[1;34mINFO\e[m] Nothing to compile - all classes are up to date\r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m--- \e[0;32mresources:3.3.1:testResources\e[m \e[1m(default-testResources)\e[m @ \e[36mOriginMaster\e[0;1m ---\e[m\r\n"
+  - delay: 5
+    content: "[\e[1;34mINFO\e[m] skip non existing resourceDirectory /Users/ahmetuygun/Desktop/projects/OriginMaster/src/test/resources\r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m--- \e[0;32mcompiler:3.11.0:testCompile\e[m \e[1m(default-testCompile)\e[m @ \e[36mOriginMaster\e[0;1m ---\e[m\r\n"
+  - delay: 8
+    content: "[\e[1;34mINFO\e[m] Nothing to compile - all classes are up to date\r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m<<< \e[0;32mspring-boot:3.2.1:run\e[m \e[1m(default-cli)\e[0;1m < \e[0;1mtest-compile\e[m @ \e[36mOriginMaster\e[0;1m <<<\e[m\r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \r\n[\e[1;34mINFO\e[m] \e[1m--- \e[0;32mspring-boot:3.2.1:run\e[m \e[1m(default-cli)\e[m @ \e[36mOriginMaster\e[0;1m ---\e[m\r\n"
+  - delay: 388
+    content: "[\e[1;34mINFO\e[m] Attaching agents: []\r\n"
+  - delay: 661
+    content: "\e[35m\r\n\r\n\e[35m  .oooooo.             o8o              o8o             .\e[36m ooo        ooooo                        .\r\n\e[35m d8P'  `Y8b            `\"'              `\"'             .\e[36m `88.       .888'                      .o8\r\n\e[35m888      888 oooo d8b oooo   .oooooooo oooo  ooo. .oo.  .\e[36m  888b     d'888   .oooo.    .oooo.o .o888oo  .ooooo.  oooo d8b\r\n\e[35m888      888 `888\"\"8P `888  888' `88b  `888  `888P\"Y88b .\e[36m  8 Y88. .P  888  `P  )88b  d88(  \"8   888   d88' `88b `888\"\"8P\r\n\e[35m888      888  888      888  888   888   888   888   888 .\e[36m  8  `888'   888   .oP\"888  `\"Y88b.    888   888ooo888  888\r\n\e[35m`88b    d88'  888      888  `88bod8P'   888   888   888 .\e[36m  8    Y     888  d8(  888  o.  )88b   888 . 888    .o  888\r\n\e[35m `Y8bood8P'  d888b    o888o `8oooooo.  o888o o888o o888o.\e[36m o8o        o888o `Y888\"\"8o 8\"\"888P'   \"888\" `Y8bod8P' d888b\r\n\e[35m                            d\"     YD\r\n\e[35m                            \"Y88888P'\r\n\e[0m\r\n \r\nPowered by Spring Boot 3.2.1\r\n\r\n\r\n"
+  - delay: 70
+    content: "\e[2m2023-12-26T18:18:54.346Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mc.c.o.OriginMasterApplication           \e[0;39m \e[2m:\e[0;39m Starting OriginMasterApplication using Java 17.0.8.1 with PID 3081 (/Users/ahmetuygun/Desktop/projects/OriginMaster/target/classes started by ahmetuygun in /Users/ahmetuygun/Desktop/projects/OriginMaster)\r\n\e[2m2023-12-26T18:18:54.352Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mc.c.o.OriginMasterApplication           \e[0;39m \e[2m:\e[0;39m No active profile set, falling back to 1 default profile: \"default\"\r\n"
+  - delay: 801
+    content: "\e[2m2023-12-26T18:18:55.153Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mo.s.b.w.embedded.tomcat.TomcatWebServer \e[0;39m \e[2m:\e[0;39m Tomcat initialized with port 8080 (http)\r\n"
+  - delay: 9
+    content: "\e[2m2023-12-26T18:18:55.161Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mo.apache.catalina.core.StandardService  \e[0;39m \e[2m:\e[0;39m Starting service [Tomcat]\r\n\e[2m2023-12-26T18:18:55.162Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mo.apache.catalina.core.StandardEngine   \e[0;39m \e[2m:\e[0;39m Starting Servlet engine: [Apache Tomcat/10.1.17]\r\n"
+  - delay: 90
+    content: "\e[2m2023-12-26T18:18:55.251Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mo.a.c.c.C.[Tomcat].[localhost].[/]      \e[0;39m \e[2m:\e[0;39m Initializing Spring embedded WebApplicationContext\r\n\e[2m2023-12-26T18:18:55.253Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mw.s.c.ServletWebServerApplicationContext\e[0;39m \e[2m:\e[0;39m Root WebApplicationContext: initialization completed in 852 ms\r\n"
+  - delay: 279
+    content: "\e[2m2023-12-26T18:18:55.532Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mo.s.b.w.embedded.tomcat.TomcatWebServer \e[0;39m \e[2m:\e[0;39m Tomcat started on port 8080 (http) with context path ''\r\n"
+  - delay: 21
+    content: "\e[2m2023-12-26T18:18:55.553Z\e[0;39m \e[32m INFO\e[0;39m \e[35m3081\e[0;39m \e[2m---\e[0;39m \e[2m[           main]\e[0;39m \e[2m\e[0;39m\e[36mc.c.o.OriginMasterApplication           \e[0;39m \e[2m:\e[0;39m Started OriginMasterApplication in 1.56 seconds (process running for 1.885)\r\n"
+  - delay: 5057
+    content: "^D\b\b"
+  - delay: 1765
+    content: "\r\n"
+  - delay: 3718
+    content: ^C
+  - delay: 83
+    content: "[\e[1;34mINFO\e[m] \e[1m------------------------------------------------------------------------\e[m\r\n[\e[1;34mINFO\e[m] \e[1;32mBUILD SUCCESS\e[m\r\n[\e[1;34mINFO\e[m] \e[1m------------------------------------------------------------------------\e[m\r\n[\e[1;34mINFO\e[m] Total time:  14.695 s\r\n[\e[1;34mINFO\e[m] Finished at: 2023-12-26T18:19:06Z\r\n[\e[1;34mINFO\e[m] \e[1m------------------------------------------------------------------------\e[m\r\n"
+  - delay: 8
+    content: "\e[0m\e[0m"
+  - delay: 39
+    content: 'Ahmets-MacBook-Pro:OriginMaster ahmetuygun$ '
+  - delay: 3208
+    content: "logout\r\n"
